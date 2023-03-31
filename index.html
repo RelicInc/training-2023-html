@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost,wght@400;500;600&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+      data-optimized-fonts="true"
+    />
+    <link href="./styles.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <img src="./src/img/header_pc_1.png?1234" alt="" class="header-1" />
+        <img
+          src="./src/img/header_pc_2.png?1234"
+          alt=""
+          class="header-2 is-pc"
+        />
+      </header>
+      <main class="main">
+        <nav class="contents-wrapper breadcrumb">
+          <img src="./src/img/breadcrumb.png" alt="" class="breadcrumb-img" />
+        </nav>
+        <!-- メインコンテンツここから -->
+        <div class="bg-gray">
+          <h1 class="title">
+            <span class="title-main font-alphabet">Branch Office</span>
+            <span class="title-sub">地方拠点一覧</span>
+          </h1>
+        </div>
+        <section class="bg-white">
+          <div class="main-visual">
+            <h2 class="main-visual-title">
+              <img src="./src/img/branch_office_logo_sparkle.svg" alt="" />
+            </h2>
+            <picture class="main-visual-img">
+              <source
+                srcset="./src/img/map_pc.png"
+                media="(min-width: 1024px)"
+              />
+              <img src="./src/img/map_sp.png" alt="Relicの地方拠点" />
+            </picture>
+          </div>
+        </section>
+        <div class="introduction-content">
+          <div class="introduction-content-block">
+            <p class="mb24">
+              株式会社Relicは創業以来、「大志ある挑戦を創造し、日本から世界へ。想いを持った挑戦者と共に走り、共に創る」「⽇本発の新規事業やイノベーションを共創するプラットフォームとなり⽇本経済と地域を活性化する」という理念を持って事業展開を行ってきました。
+            </p>
+            <p class="font-bold">
+              東京をはじめ関東エリアを中心に事業を展開してきましたが、近年は全国各地への事業展開や地方創生にも注力しています。<br />Relicの理念のもと、地方にある企業様と伴走し事業の発展を共に担い、地方のIT人材の活性化を推進していきます。<br />私たちと一緒に、地方から、日本経済の活性化や世界に誇れる事業の共創に挑戦しませんか？
+            </p>
+          </div>
+        </div>
+
+        <div class="contents-wrapper">.contents-wrapper classを使えます</div>
+        <div class="bg-white">.bg-white 白背景のutility class</div>
+        <div class="bg-gray">.bg-gray グレー背景のutility class</div>
+        <div class="font-alphabet">font-family: Jost</div>
+
+        <!-- メインコンテンツここまで -->
+      </main>
+      <footer class="footer">
+        <div class="footer-1">
+          <img src="./src/img/footer_pc_1.png" alt="" class="is-pc" />
+          <img src="./src/img/footer_sp_1.png" alt="" class="is-sp" />
+        </div>
+        <div class="footer-2">
+          <img src="./src/img/footer_pc_2.png" alt="" class="is-pc" />
+          <img src="./src/img/footer_sp_2.png" alt="" class="is-sp" />
+        </div>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+.title {
+  position: relative;
+  box-sizing: content-box;
+  max-width: 1080px;
+  padding: 0 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #2340b7;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    margin: 0 auto;
+  }
+}
+.title .title-main {
+  display: block;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 768px) {
+  .title .title-main {
+    font-size: 5.5rem;
+    letter-spacing: 0.08em;
+  }
+}
+.title .title-sub {
+  display: block;
+  font-size: 0.875rem;
+  letter-spacing: 0.25em;
+}
+@media screen and (min-width: 768px) {
+  .title .title-sub {
+    font-size: 1.375rem;
+    letter-spacing: 0.16em;
+  }
+}
+
+.main-visual {
+  position: relative;
+  box-sizing: content-box;
+  max-width: 1080px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px;
+  opacity: 1;
+  transition: all 1.2s ease 300ms;
+}
+@media screen and (min-width: 1024px) {
+  .main-visual {
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+}
+
+.main-visual-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media screen and (min-width: 1024px) {
+  .main-visual-title {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border: 0;
+    width: 212px;
+  }
+}
+
+.main-visual-img {
+  max-width: 727px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .main-visual-img {
+    margin: 0;
+  }
+}
+
+.introduction-content {
+  padding: 40px 0;
+  background-color: #ebebf2;
+}
+@media screen and (min-width: 1024px) {
+  .introduction-content {
+    padding: 100px 0 80px;
+  }
+}
+
+.introduction-content-block {
+  position: relative;
+  box-sizing: content-box;
+  max-width: 1080px;
+  padding: 0 24px;
+}
+@media screen and (min-width: 1024px) {
+  .introduction-content-block {
+    margin: 0 auto;
+  }
+}
